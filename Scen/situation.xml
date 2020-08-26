@@ -1,0 +1,1599 @@
+<?xml version="1.0"?>
+<SituationKB version="1.0">
+<SituationExamples>
+<SituationExample version="1.0" index="0">
+      <NLPattern>
+        <Fragments>
+          <String>Suspicious </String>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> communicates with unknown server </String>
+          <OntologyEntity>
+            <InstanceReference name="C2server1" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <NLPattern>
+        <Fragments />
+      </NLPattern>
+    </SituationExample>
+</SituationExamples>
+<IntelligenceQuestionExamples>
+<IntelligenceQuestionExample version="1.1" index="0" main="false">
+      <NLPattern>
+        <Fragments>
+          <String>Is </String>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> activity on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> a part of Trojan attack on </String>
+          <OntologyEntity>
+            <OntologyString>03/26/2020 08:35:43</OntologyString>
+          </OntologyEntity>
+          <String>?</String>
+        </Fragments>
+      </NLPattern>
+      <SituationExampleReference version="1.0" kbPartName="Scen" index="0" />
+    </IntelligenceQuestionExample>
+</IntelligenceQuestionExamples>
+<HypothesisExamples>
+<HypothesisExample version="1.0" index="36" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Privilege Escalation tactic" />
+          </OntologyEntity>
+          <String>: </String>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> is a part of </String>
+          <OntologyEntity>
+            <InstanceReference name="Downdelph" />
+          </OntologyEntity>
+          <String> malware using </String>
+          <OntologyEntity>
+            <InstanceReference name="Privilege Escalation tactic" />
+          </OntologyEntity>
+          <String> on </String>
+          <OntologyEntity>
+            <OntologyString>03/06/2018 08:30:30 PM</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="37" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Abuse Elevation Control Mechanism technique" />
+          </OntologyEntity>
+          <String>: </String>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> is a part of </String>
+          <OntologyEntity>
+            <InstanceReference name="Downdelph" />
+          </OntologyEntity>
+          <String> malware using </String>
+          <OntologyEntity>
+            <InstanceReference name="Abuse Elevation Control Mechanism technique" />
+          </OntologyEntity>
+          <String> on </String>
+          <OntologyEntity>
+            <OntologyString>03/06/2018 08:30:30 PM</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="38" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Bypass User Access Control sub-technique" />
+          </OntologyEntity>
+          <String>: </String>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> is a part of </String>
+          <OntologyEntity>
+            <InstanceReference name="Downdelph" />
+          </OntologyEntity>
+          <String> malware using </String>
+          <OntologyEntity>
+            <InstanceReference name="Bypass User Access Control sub-technique" />
+          </OntologyEntity>
+          <String> on </String>
+          <OntologyEntity>
+            <OntologyString>03/06/2018 08:30:30 PM</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="39" negation="false">
+      <NLPattern>
+        <Fragments>
+          <String> </String>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="RedirectEXE" />
+          </OntologyEntity>
+          <String> shim database to escalate privileges</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="41" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Hijack Execution Flow technique" />
+          </OntologyEntity>
+          <String>: </String>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> is a part of </String>
+          <OntologyEntity>
+            <InstanceReference name="Downdelph" />
+          </OntologyEntity>
+          <String> malware using </String>
+          <OntologyEntity>
+            <InstanceReference name="Hijack Execution Flow technique" />
+          </OntologyEntity>
+          <String> on </String>
+          <OntologyEntity>
+            <OntologyString>03/06/2018 08:30:30 PM</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="42" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="DLL Search Order Hijacking sub-technique" />
+          </OntologyEntity>
+          <String>: </String>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> is a part of </String>
+          <OntologyEntity>
+            <InstanceReference name="Downdelph" />
+          </OntologyEntity>
+          <String> malware using </String>
+          <OntologyEntity>
+            <InstanceReference name="DLL Search Order Hijacking sub-technique" />
+          </OntologyEntity>
+          <String> on </String>
+          <OntologyEntity>
+            <OntologyString>03/06/2018 08:30:30 PM</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="43" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> hijacked the Windows executable </String>
+          <OntologyEntity>
+            <InstanceReference name="sysprep utility" />
+          </OntologyEntity>
+          <String> to escalate privileges</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="196" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> activity on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> is part of Trojan attack on </String>
+          <OntologyEntity>
+            <OntologyString>03/26/2020 08:35:43</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <IntelligenceQuestionExampleReference version="1.1" kbPartName="Scen" index="0" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="197" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> is a part of network security intelligence gathering on </String>
+          <OntologyEntity>
+            <OntologyString>03/06/2018 08:30:30 PM</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <IntelligenceQuestionExampleReference version="1.1" kbPartName="Scen" index="0" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="198" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has Trojan data-related phases</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="199" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has After Attack Phase</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="200" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has Exfiltration Phase</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="201" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has Collection Phase</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="203" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has Download Phase</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="205" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has Execution Phase</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="206" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has Initialization Phase</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="208" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has additional payload phases</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="209" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Command and Control tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="210" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Command and Control tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="211" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Ingress Tool Transfer technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="212" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Defense Evasion tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="213" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Impact tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="214" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Data Encrypted for Impact technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="215" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Indicator Removal on Host technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="216" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="File Deletion sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="217" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Clear Windows Event Logs sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="219" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Execution tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="220" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Defense Evasion tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="221" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Privilege Escalation tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="222" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Windows Management Instrumentation technique" />
+          </OntologyEntity>
+          <String> </String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="223" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Native API technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="224" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Command and Scripting Interpreter technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="225" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Scheduled Task or Job technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="226" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="User Execution technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="227" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Malicious Link sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="228" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Scheduled Task sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="230" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Discovery tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="231" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Collection tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="232" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has Trojan Functional Phases</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="233" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Exfiltration tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="234" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Persistence tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="235" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Defense Evasion tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="236" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Discovery tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="237" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Privilege Escalation tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="238" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Execution tactic" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="239" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has suspicious execution and command line parameters of binaries involved in data destruction activity</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="240" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> creates suspicious files</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="241" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> has unusual file modification activity</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="242" negation="false">
+      <NLPattern>
+        <Fragments>
+          <String>there are large quantities of file modifications in user directories</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="243" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Signed Binary Proxy Execution technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="244" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Rundll32 sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="245" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Command and Scripting Interpreter technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="246" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="PowerShell sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="247" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Hide Artifacts technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="248" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="NTFS File Attibutes sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="250" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="PowerShell sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+</HypothesisExamples>
+<TriggerExamples>
+<TriggerExample version="1.0" index="0" editedAfterGenerated="false">
+      <NLPattern>
+        <Fragments>
+          <String>Alert: </String>
+          <OntologyEntity>
+            <InstanceReference name="executable file1" />
+          </OntologyEntity>
+          <String> written into </String>
+          <OntologyEntity>
+            <OntologyString>c:\windows\1111.exe</OntologyString>
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> from external host </String>
+          <OntologyEntity>
+            <OntologyString>64.10.7.1</OntologyString>
+          </OntologyEntity>
+          <String> through </String>
+          <OntologyEntity>
+            <InstanceReference name="SMB transfer protocol" />
+          </OntologyEntity>
+          <String> on </String>
+          <OntologyEntity>
+            <OntologyString>03/26/2020 08:35:43</OntologyString>
+          </OntologyEntity>
+          <String> </String>
+        </Fragments>
+      </NLPattern>
+    </TriggerExample>
+</TriggerExamples>
+<CollectionTaskExamples>
+<CollectionTaskExample version="1.0" index="0" requested="false">
+      <NLPattern>
+        <Fragments>
+          <String>Check Security logs for event_code equals 1100 and 1102</String>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+<CollectionTaskExample version="1.0" index="1" requested="false">
+      <NLPattern>
+        <Fragments>
+          <String>Check System logs for event_code equals to 104</String>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+<CollectionTaskExample version="1.0" index="2" requested="false">
+      <NLPattern>
+        <Fragments>
+          <String>Search Security logs for event ID 4656 with "File System" or "Removable Storage" task category and with "Accesses: DELETE" string. Also, "Subject: Security ID" will show you who has deleted a file.</String>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+<CollectionTaskExample version="1.0" index="3" requested="false">
+      <NLPattern>
+        <Fragments>
+          <String>Search for process with Create action and the exe field is </String>
+          <OntologyEntity>
+            <OntologyString>rundll32.exe</OntologyString>
+          </OntologyEntity>
+          <String>, check for their command_line field for the additional information like the dll's name</String>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+<CollectionTaskExample version="1.0" index="4" requested="false">
+      <NLPattern>
+        <Fragments>
+          <String>Search for process with </String>
+          <OntologyEntity>
+            <OntologyString>Create</OntologyString>
+          </OntologyEntity>
+          <String> action and the exe field is </String>
+          <OntologyEntity>
+            <OntologyString>powershell.exe</OntologyString>
+          </OntologyEntity>
+          <String>, but its parent_exe filed is not </String>
+          <OntologyEntity>
+            <OntologyString>explorer.exe</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+<CollectionTaskExample version="1.0" index="5" requested="false">
+      <NLPattern>
+        <Fragments>
+          <String>Search for process with Create action and the exe field is one of the following: (</String>
+          <OntologyEntity>
+            <OntologyString>control.exe</OntologyString>
+          </OntologyEntity>
+          <String>, appvlp.exe, cmd.exe, ftp.exe, bash.exe, mavinject.exe, bitsadmin.exe), and the command_line matches the specific regex like (\w+(\.\w+)?):(\w+\.dll)</String>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+<CollectionTaskExample version="1.0" index="6" requested="false">
+      <NLPattern>
+        <Fragments>
+          <String>Search for process with </String>
+          <OntologyEntity>
+            <OntologyString>Create</OntologyString>
+          </OntologyEntity>
+          <String> action, and the exe field is one of the following: (</String>
+          <OntologyEntity>
+            <OntologyString>powershell.exe</OntologyString>
+          </OntologyEntity>
+          <String>,  </String>
+          <OntologyEntity>
+            <OntologyString>rundll32.exe</OntologyString>
+          </OntologyEntity>
+          <String>, </String>
+          <OntologyEntity>
+            <OntologyString>wmic.exe</OntologyString>
+          </OntologyEntity>
+          <String>, </String>
+          <OntologyEntity>
+            <OntologyString>wscript.exe</OntologyString>
+          </OntologyEntity>
+          <String>, </String>
+          <OntologyEntity>
+            <OntologyString>cscript.exe</OntologyString>
+          </OntologyEntity>
+          <String>), and </String>
+          <OntologyEntity>
+            <OntologyString>command_line</OntologyString>
+          </OntologyEntity>
+          <String> matches the specific regex like (\w+(\.\w+)?):(\w+(\.\w+)?)</String>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+<CollectionTaskExample version="1.0" index="7" requested="false">
+      <NLPattern>
+        <Fragments>
+          <String>Search for process with </String>
+          <OntologyEntity>
+            <OntologyString>Create</OntologyString>
+          </OntologyEntity>
+          <String> action and the exe field is </String>
+          <OntologyEntity>
+            <OntologyString>powershell.exe</OntologyString>
+          </OntologyEntity>
+          <String>, but its parent_exe filed is not </String>
+          <OntologyEntity>
+            <OntologyString>explorer.exe</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+</CollectionTaskExamples>
+<ArgumentStepExamples>
+<ArgumentStepExample version="1.0" index="32" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="42" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="43" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="135" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L10 - almost certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="196" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="206" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="232" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="136" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="198" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="201" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="138" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="208" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="203" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="205" />
+      </SubHypotheses>
+      <CombinedIndicatorExample>
+        <hypotheses>
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="203" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="205" />
+        </hypotheses>
+        <values>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="203" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="205" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="203" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="205" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L05 - more than likely" />
+          </HypothesesCombinationValue>
+        </values>
+      </CombinedIndicatorExample>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="139" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="206" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="209" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="140" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="203" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="210" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="141" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="210" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="211" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="142" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L03 - likely" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="199" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="212" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="143" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="199" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="213" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="144" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="213" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="214" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="145" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="212" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="215" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="146" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="215" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="216" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="147" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="215" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="217" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="149" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="205" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="219" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="150" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="205" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="220" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="151" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="205" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="221" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="152" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="219" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="222" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="153" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="219" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="223" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="154" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="219" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="224" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="155" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="219" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="225" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="156" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="219" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="226" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="157" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="226" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="227" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="158" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="225" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="228" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="159" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="201" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="230" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="160" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="201" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="231" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="161" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="232" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="198" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="208" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="199" />
+      </SubHypotheses>
+      <CombinedIndicatorExample>
+        <hypotheses>
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="198" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="208" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="199" />
+        </hypotheses>
+        <values>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="198" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="208" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="199" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="198" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="208" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="198" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="199" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="198" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="208" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="199" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="208" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="199" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+          </HypothesesCombinationValue>
+        </values>
+      </CombinedIndicatorExample>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="163" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="198" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="200" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="164" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="200" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="233" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="165" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="206" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="234" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="166" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="206" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="235" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="167" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="206" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="236" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="168" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="206" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="237" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="169" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="206" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="238" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="170" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="214" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="239" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="171" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L03 - likely" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="214" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="240" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="172" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L05 - more than likely" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="214" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="241" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="173" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="214" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="242" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="174" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="235" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="243" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="175" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="243" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="244" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="176" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="238" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="245" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="177" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="245" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="246" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="178" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="235" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="247" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="179" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L10 - almost certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="247" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="248" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="181" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L06" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="224" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="250" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+</ArgumentStepExamples>
+<CollectionStepExamples>
+<CollectionStepExample version="1.0" index="0">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="217" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="0" />
+    </CollectionStepExample>
+<CollectionStepExample version="1.0" index="1">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="217" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="1" />
+    </CollectionStepExample>
+<CollectionStepExample version="1.0" index="2">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="216" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="2" />
+    </CollectionStepExample>
+<CollectionStepExample version="1.0" index="3">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="244" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="3" />
+    </CollectionStepExample>
+<CollectionStepExample version="1.0" index="4">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="246" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="4" />
+    </CollectionStepExample>
+<CollectionStepExample version="1.0" index="5">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="248" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="5" />
+    </CollectionStepExample>
+<CollectionStepExample version="1.0" index="6">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="248" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="6" />
+    </CollectionStepExample>
+<CollectionStepExample version="1.0" index="7">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="250" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="7" />
+    </CollectionStepExample>
+</CollectionStepExamples>
+<EvidenceAssociationMap>
+    <hypothesisEvidenceAssociationList />
+  </EvidenceAssociationMap>
+</SituationKB>

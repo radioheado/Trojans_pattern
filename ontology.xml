@@ -1,0 +1,5479 @@
+<?xml version="1.0"?>
+<Ontology version="2">
+<Concepts>
+<ConceptAdditionalInfo name="object">
+      <DirectSuperConcepts />
+    </ConceptAdditionalInfo>
+<Concept name="algorithm">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="algorithm" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="user instance">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="user instance" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="event">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="event" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="system object">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="system object" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="file system object1">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="file system object1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="persistence mechanism">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="persistence mechanism" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="HTTP user agent string">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="HTTP user agent string" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="Registry value">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="Registry value" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="Registry key">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="Registry key" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="service provider">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="service provider" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="hacker group">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="hacker group" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="programs">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="programs" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="ports">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="ports" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="address">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="address" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="network object">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="network object" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<ConceptAdditionalInfo name="evidence direction">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="hypothesis">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="collected information">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="object view">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="actor">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="evidence combination">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="credential">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="action">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="language">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="instrument">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<Concept name="time">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="internal port">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="internal port" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="tactic">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="tactic" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<ConceptAdditionalInfo name="software">
+      <DirectSuperConcepts>
+        <ConceptReference name="instrument" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="computer network">
+      <DirectSuperConcepts>
+        <ConceptReference name="instrument" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="sensing device">
+      <DirectSuperConcepts>
+        <ConceptReference name="instrument" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="evidence processing action">
+      <DirectSuperConcepts>
+        <ConceptReference name="action" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="believability credential">
+      <DirectSuperConcepts>
+        <ConceptReference name="credential" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="competence credential">
+      <DirectSuperConcepts>
+        <ConceptReference name="credential" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="credibility credential">
+      <DirectSuperConcepts>
+        <ConceptReference name="credential" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="evidence credential">
+      <DirectSuperConcepts>
+        <ConceptReference name="credential" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="processed evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="authoritative record">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="missing evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="testimonial evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="tangible evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="dissonant evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence combination" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="redundant evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence combination" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="harmonious evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence combination" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="source">
+      <DirectSuperConcepts>
+        <ConceptReference name="actor" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="person">
+      <DirectSuperConcepts>
+        <ConceptReference name="actor" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="organization">
+      <DirectSuperConcepts>
+        <ConceptReference name="actor" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="reporter">
+      <DirectSuperConcepts>
+        <ConceptReference name="actor" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="editor">
+      <DirectSuperConcepts>
+        <ConceptReference name="actor" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="interpreter">
+      <DirectSuperConcepts>
+        <ConceptReference name="actor" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="photographer">
+      <DirectSuperConcepts>
+        <ConceptReference name="actor" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="translator">
+      <DirectSuperConcepts>
+        <ConceptReference name="actor" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="hypothesis with direct evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="hypothesis" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="disfavoring evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence direction" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="favoring evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence direction" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<Concept name="connection">
+      <DirectSuperConcepts>
+        <ConceptReference name="network object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="connection" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="network protocol">
+      <DirectSuperConcepts>
+        <ConceptReference name="network object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="network protocol" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="network address">
+      <DirectSuperConcepts>
+        <ConceptReference name="network object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="network address" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="port">
+      <DirectSuperConcepts>
+        <ConceptReference name="network object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="port" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="physical addresss">
+      <DirectSuperConcepts>
+        <ConceptReference name="address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="physical addresss" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="IP addresss">
+      <DirectSuperConcepts>
+        <ConceptReference name="address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="IP addresss" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="domains">
+      <DirectSuperConcepts>
+        <ConceptReference name="address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="domains" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="IP address mappings">
+      <DirectSuperConcepts>
+        <ConceptReference name="address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="IP address mappings" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="named ports">
+      <DirectSuperConcepts>
+        <ConceptReference name="ports" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="named ports" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="DLLs">
+      <DirectSuperConcepts>
+        <ConceptReference name="programs" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="DLLs" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="trusted programs">
+      <DirectSuperConcepts>
+        <ConceptReference name="programs" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="trusted programs" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="malwares">
+      <DirectSuperConcepts>
+        <ConceptReference name="programs" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="malwares" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="APT group">
+      <DirectSuperConcepts>
+        <ConceptReference name="hacker group" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="APT group" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="DNS provider">
+      <DirectSuperConcepts>
+        <ConceptReference name="service provider" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="DNS provider" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="Windows service">
+      <DirectSuperConcepts>
+        <ConceptReference name="persistence mechanism" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="Windows service" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="folder1">
+      <DirectSuperConcepts>
+        <ConceptReference name="file system object1" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="folder1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="file system object1" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="file1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="program">
+      <DirectSuperConcepts>
+        <ConceptReference name="system object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="program" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="file system object">
+      <DirectSuperConcepts>
+        <ConceptReference name="system object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="file system object" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="process">
+      <DirectSuperConcepts>
+        <ConceptReference name="system object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="process" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="task">
+      <DirectSuperConcepts>
+        <ConceptReference name="system object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="task" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="network event">
+      <DirectSuperConcepts>
+        <ConceptReference name="event" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="network event" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="encryption algorithm">
+      <DirectSuperConcepts>
+        <ConceptReference name="algorithm" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="encryption algorithm" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="network transfer event">
+      <DirectSuperConcepts>
+        <ConceptReference name="network event" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="network transfer event" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="Windows task">
+      <DirectSuperConcepts>
+        <ConceptReference name="task" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="Windows task" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="Windows process">
+      <DirectSuperConcepts>
+        <ConceptReference name="process" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="Windows process" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="computer file system object">
+      <DirectSuperConcepts>
+        <ConceptReference name="file system object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="computer file system object" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="suspicious program">
+      <DirectSuperConcepts>
+        <ConceptReference name="program" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="suspicious program" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="malware">
+      <DirectSuperConcepts>
+        <ConceptReference name="program" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="malware" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="trusted program">
+      <DirectSuperConcepts>
+        <ConceptReference name="program" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="trusted program" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="library files">
+      <DirectSuperConcepts>
+        <ConceptReference name="file1" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="library files" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="data files">
+      <DirectSuperConcepts>
+        <ConceptReference name="file1" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="data files" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="temporary files">
+      <DirectSuperConcepts>
+        <ConceptReference name="file1" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="temporary files" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="command shell files">
+      <DirectSuperConcepts>
+        <ConceptReference name="file1" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="command shell files" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="temporary folders">
+      <DirectSuperConcepts>
+        <ConceptReference name="folder1" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="temporary folders" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="dynamic DNS provider">
+      <DirectSuperConcepts>
+        <ConceptReference name="DNS provider" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="dynamic DNS provider" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="https ports">
+      <DirectSuperConcepts>
+        <ConceptReference name="named ports" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="https ports" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="ssh ports">
+      <DirectSuperConcepts>
+        <ConceptReference name="named ports" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="ssh ports" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="ssl ports">
+      <DirectSuperConcepts>
+        <ConceptReference name="named ports" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="ssl ports" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="DNS ports">
+      <DirectSuperConcepts>
+        <ConceptReference name="named ports" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="DNS ports" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="http ports">
+      <DirectSuperConcepts>
+        <ConceptReference name="named ports" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="http ports" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="ftp ports">
+      <DirectSuperConcepts>
+        <ConceptReference name="named ports" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="ftp ports" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="static domain addresss">
+      <DirectSuperConcepts>
+        <ConceptReference name="domains" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="static domain addresss" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="dynamic domain addresss">
+      <DirectSuperConcepts>
+        <ConceptReference name="domains" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="dynamic domain addresss" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="IPv6 addresss">
+      <DirectSuperConcepts>
+        <ConceptReference name="IP addresss" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="IPv6 addresss" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="IPv4 addresss">
+      <DirectSuperConcepts>
+        <ConceptReference name="IP addresss" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="IPv4 addresss" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="MAC addresss">
+      <DirectSuperConcepts>
+        <ConceptReference name="physical addresss" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="MAC addresss" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="named port">
+      <DirectSuperConcepts>
+        <ConceptReference name="port" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="named port" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="domain name system">
+      <DirectSuperConcepts>
+        <ConceptReference name="network address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="domain name system" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="IP address">
+      <DirectSuperConcepts>
+        <ConceptReference name="network address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="IP address" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="physical address">
+      <DirectSuperConcepts>
+        <ConceptReference name="network address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="physical address" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="application layer protocol">
+      <DirectSuperConcepts>
+        <ConceptReference name="network protocol" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="application layer protocol" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="transport layer protocol">
+      <DirectSuperConcepts>
+        <ConceptReference name="network protocol" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="transport layer protocol" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="outbound connection">
+      <DirectSuperConcepts>
+        <ConceptReference name="connection" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="outbound connection" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="inbound connection">
+      <DirectSuperConcepts>
+        <ConceptReference name="connection" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="inbound connection" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<ConceptAdditionalInfo name="convergent evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="harmonious evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="corroborative evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="harmonious evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="cumulative redundant evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="redundant evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="corroborative redundant evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="redundant evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="divergent evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="dissonant evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="contradictory evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="dissonant evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="demonstrative tangible evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="tangible evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="real tangible evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="tangible evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="equivocal testimonial evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="testimonial evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="unequivocal testimonial evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="testimonial evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="tangible evidence about testimonial evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="tangible evidence" />
+        <ConceptReference name="processed evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="testimonial evidence about tangible evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="testimonial evidence" />
+        <ConceptReference name="processed evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="evidence from chain of custody">
+      <DirectSuperConcepts>
+        <ConceptReference name="processed evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="relevance">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence credential" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="source credibility credential">
+      <DirectSuperConcepts>
+        <ConceptReference name="credibility credential" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="object credibility credential">
+      <DirectSuperConcepts>
+        <ConceptReference name="credibility credential" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="transfer">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence processing action" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="transmission">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence processing action" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="recording">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence processing action" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="photo">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence processing action" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="translation">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence processing action" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="interpretation">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence processing action" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="editing">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence processing action" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="photo camera">
+      <DirectSuperConcepts>
+        <ConceptReference name="sensing device" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="recorder">
+      <DirectSuperConcepts>
+        <ConceptReference name="sensing device" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="audio recorder">
+      <DirectSuperConcepts>
+        <ConceptReference name="recorder" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="video recorder">
+      <DirectSuperConcepts>
+        <ConceptReference name="recorder" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="unequivocal testimonial evidence based upon direct observation">
+      <DirectSuperConcepts>
+        <ConceptReference name="unequivocal testimonial evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="probabilistically equivocal testimonial evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="equivocal testimonial evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="completely equivocal testimonial evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="equivocal testimonial evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="testimonial evidence based on opinion">
+      <DirectSuperConcepts>
+        <ConceptReference name="equivocal testimonial evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<ConceptAdditionalInfo name="synergistic evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="convergent evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<Concept name="MAC address">
+      <DirectSuperConcepts>
+        <ConceptReference name="physical address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="MAC address" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="IPv4 address">
+      <DirectSuperConcepts>
+        <ConceptReference name="IP address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="IPv4 address" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="IPv6 address">
+      <DirectSuperConcepts>
+        <ConceptReference name="IP address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="IPv6 address" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="dynamic domain address">
+      <DirectSuperConcepts>
+        <ConceptReference name="domain name system" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="dynamic domain address" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="static domain address">
+      <DirectSuperConcepts>
+        <ConceptReference name="domain name system" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="static domain address" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="http port">
+      <DirectSuperConcepts>
+        <ConceptReference name="named port" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="http port" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="https port">
+      <DirectSuperConcepts>
+        <ConceptReference name="named port" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="https port" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="ssl port">
+      <DirectSuperConcepts>
+        <ConceptReference name="named port" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="ssl port" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="ssh port">
+      <DirectSuperConcepts>
+        <ConceptReference name="named port" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="ssh port" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="DNS port">
+      <DirectSuperConcepts>
+        <ConceptReference name="named port" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="DNS port" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="TCP port">
+      <DirectSuperConcepts>
+        <ConceptReference name="named port" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="TCP port" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="Windows trusted program">
+      <DirectSuperConcepts>
+        <ConceptReference name="trusted program" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="Windows trusted program" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="computer file system folder">
+      <DirectSuperConcepts>
+        <ConceptReference name="computer file system object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="computer file system folder" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="computer file system file">
+      <DirectSuperConcepts>
+        <ConceptReference name="computer file system object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="computer file system file" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="computer file system path">
+      <DirectSuperConcepts>
+        <ConceptReference name="computer file system object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="computer file system path" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="Windows scheduled task">
+      <DirectSuperConcepts>
+        <ConceptReference name="Windows task" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="Windows scheduled task" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="SMB transfer event">
+      <DirectSuperConcepts>
+        <ConceptReference name="network transfer event" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="SMB transfer event" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<ConceptAdditionalInfo name="unequivocal testimonial evidence obtained at second hand">
+      <DirectSuperConcepts>
+        <ConceptReference name="processed evidence" />
+        <ConceptReference name="unequivocal testimonial evidence" />
+      </DirectSuperConcepts>
+    </ConceptAdditionalInfo>
+<Concept name="computer file system absolute path">
+      <DirectSuperConcepts>
+        <ConceptReference name="computer file system path" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="computer file system absolute path" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="computer file system relative path">
+      <DirectSuperConcepts>
+        <ConceptReference name="computer file system path" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="computer file system relative path" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="executable file">
+      <DirectSuperConcepts>
+        <ConceptReference name="computer file system file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="executable file" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+<Concept name="system utility">
+      <DirectSuperConcepts>
+        <ConceptReference name="Windows trusted program" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="system utility" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
+</Concepts>
+<Instances>
+<Instance name="Auriga Windows service1">
+      <DirectSuperConcepts>
+        <ConceptReference name="Windows service" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Auriga Windows service1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="APT1">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT group" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="APT1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Auriga">
+      <DirectSuperConcepts>
+        <ConceptReference name="malwares" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Auriga" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<InstanceAdditionalInfo name="believability">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="inferential force">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="access">
+      <DirectSuperConcepts>
+        <ConceptReference name="competence credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="understandability">
+      <DirectSuperConcepts>
+        <ConceptReference name="competence credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="competence">
+      <DirectSuperConcepts>
+        <ConceptReference name="believability credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="credibility">
+      <DirectSuperConcepts>
+        <ConceptReference name="believability credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="authenticity">
+      <DirectSuperConcepts>
+        <ConceptReference name="object credibility credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="accuracy">
+      <DirectSuperConcepts>
+        <ConceptReference name="object credibility credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="reliability">
+      <DirectSuperConcepts>
+        <ConceptReference name="object credibility credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="security">
+      <DirectSuperConcepts>
+        <ConceptReference name="object credibility credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="fidelity">
+      <DirectSuperConcepts>
+        <ConceptReference name="object credibility credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="veracity">
+      <DirectSuperConcepts>
+        <ConceptReference name="source credibility credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="objectivity">
+      <DirectSuperConcepts>
+        <ConceptReference name="source credibility credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="observational sensitivity">
+      <DirectSuperConcepts>
+        <ConceptReference name="source credibility credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="inferential ability">
+      <DirectSuperConcepts>
+        <ConceptReference name="source credibility credential" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="direct relevance">
+      <DirectSuperConcepts>
+        <ConceptReference name="relevance" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<InstanceAdditionalInfo name="indirect relevance">
+      <DirectSuperConcepts>
+        <ConceptReference name="relevance" />
+      </DirectSuperConcepts>
+    </InstanceAdditionalInfo>
+<Instance name="Auriga temporary folder1">
+      <DirectSuperConcepts>
+        <ConceptReference name="temporary folders" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Auriga temporary folder1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Auriga command shell file2">
+      <DirectSuperConcepts>
+        <ConceptReference name="command shell files" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Auriga command shell file2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Auriga command shell file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="command shell files" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Auriga command shell file1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Auriga temporary file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="temporary files" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Auriga temporary file1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Auriga library file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="library files" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Auriga library file1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Auriga DLL1">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLLs" />
+        <ConceptReference name="library files" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Auriga DLL1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+</Instances>
+<Features>
+<FeatureAdditionalInfo name="feature">
+      <DirectSuperFeatures />
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<Feature name="has as tactic">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="malware" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="tactic" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as tactic" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as malware">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="APT group" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="malware" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as malware" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as tool">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="APT group" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="program" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as tool" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as external name matching">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="computer file system absolute path" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <AnyStringBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as external name matching" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<FeatureAdditionalInfo name="has as credibility">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="hypothesis support feature">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as URL">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="scenario feature">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="is extracted from">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="evidence feature">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="evidence representation feature">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="is produced by sensing device">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="system feature">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="action feature">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as believability credential">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as hedging">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as source">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="is obtained from">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="is obtained by">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as language">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<Feature name="has as specific string">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as specific string" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as external name">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="object" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <AnyStringBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as external name" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as source IP">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="event" />
+              <ConceptReference name="connection" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="IP addresss" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as source IP" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as destination IP">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="event" />
+              <ConceptReference name="connection" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="IP addresss" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as destination IP" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as source port">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="connection" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="ports" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as source port" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as destination port">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="connection" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="ports" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as destination port" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as domain">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="domains" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as domain" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as IP address mapping">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="domains" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="IP address mappings" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as IP address mapping" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as DNS registrar">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="domains" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="DNS provider" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as DNS registrar" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as Windows service">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="programs" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="persistence mechanism" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as Windows service" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as process ID">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="programs" />
+              <ConceptReference name="process" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <IntegerInterval>
+              <UnitOfMeasure />
+              <OntologyInteger>
+                <Integer Value="0" />
+                <UnitOfMeasure />
+              </OntologyInteger>
+              <OntologyInteger>
+                <Integer Value="9223372036854775807" />
+                <UnitOfMeasure />
+              </OntologyInteger>
+            </IntegerInterval>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as process ID" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as connection">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="programs" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="connection" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as connection" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as path name">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as path name" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as start time">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="time" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as start time" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as end time">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="time" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as end time" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as unique malware string">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="programs" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as unique malware string" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as MD5 hash">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="programs" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as MD5 hash" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as temporary folder">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="temporary folders" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as temporary folder" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as temporary file">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="temporary files" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as temporary file" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as data file">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="data files" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as data file" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as library file">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="library files" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as library file" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="is isomorphic with">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="command shell files" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="command shell files" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="is isomorphic with" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as command shell file">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="command shell files" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as command shell file" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as command shell">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="programs" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as command shell" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as Registry key">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="Registry key" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as Registry key" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="program search attempted on">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="time" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="program search attempted on" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as injected DLL">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="persistence mechanism" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="DLLs" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as injected DLL" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="uses as domain">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="?01" />
+        <FormalParameter name="?02" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="?01" />
+          <LowerBound>
+            <ClassicConceptBound>
+              <ConceptReference name="APT group" />
+            </ClassicConceptBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="APT group" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="?02" />
+          <LowerBound>
+            <ClassicConceptBound>
+              <ConceptReference name="domains" />
+            </ClassicConceptBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="domains" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties />
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?01" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="uses as domain" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?02" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as protocol">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="event" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="network protocol" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as protocol" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as transferred payload">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="event" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="executable file" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as transferred payload" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as path">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="system object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="computer file system path" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as path" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as timestamp">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="event" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="time" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as timestamp" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="runs on">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="process" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="IPv4 address" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="runs on" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as technique">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="object" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="object" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as technique" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as sub-technique">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="technique" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="sub-technique" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as sub-technique" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<FeatureAdditionalInfo name="has as competence credential">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as believability credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as credibility credential">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as believability credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action agent">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action beneficiary">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action coagent">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action destination">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action experiencer">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action instrument">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action location">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action origin">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action path">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action recipient">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action result">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as action theme">
+      <DirectSuperFeatures>
+        <FeatureReference name="action feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as external description">
+      <DirectSuperFeatures>
+        <FeatureReference name="system feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as brief description">
+      <DirectSuperFeatures>
+        <FeatureReference name="system feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as description">
+      <DirectSuperFeatures>
+        <FeatureReference name="system feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="is view of">
+      <DirectSuperFeatures>
+        <FeatureReference name="evidence representation feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as interpretation">
+      <DirectSuperFeatures>
+        <FeatureReference name="evidence feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="states as view">
+      <DirectSuperFeatures>
+        <FeatureReference name="evidence feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="disfavors">
+      <DirectSuperFeatures>
+        <FeatureReference name="hypothesis support feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="favors">
+      <DirectSuperFeatures>
+        <FeatureReference name="hypothesis support feature" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as evidence processing input">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action theme" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as evidence processing result">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action result" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="editing with">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action instrument" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="photo with">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action instrument" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="transmission with">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action instrument" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="recording with">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action instrument" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="recording by">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action agent" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="transfer by">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action agent" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="interpretation by">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action agent" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="photo by">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action agent" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="transmission by">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action agent" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="translation by">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action agent" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="editing by">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as action agent" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as source credibility credential">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as credibility credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as object credibility credential">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as credibility credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as source access">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as competence credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as source understandability">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as competence credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as reliability">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as object credibility credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as authenticity">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as object credibility credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as accuracy">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as object credibility credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as source observational sensitivity">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as source credibility credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as source objectivity">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as source credibility credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="has as source veracity">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as source credibility credential" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="editing into">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing result" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="interpretation into">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing result" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="photo into">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing result" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="recording into">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing result" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="transfer into">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing result" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="translation into">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing result" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="transmission into">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing result" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="editing of">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing input" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="interpretation of">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing input" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="photo of">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing input" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="recording of">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing input" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="transmission of">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing input" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="transfer of">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing input" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+<FeatureAdditionalInfo name="translation of">
+      <DirectSuperFeatures>
+        <FeatureReference name="has as evidence processing input" />
+      </DirectSuperFeatures>
+      <DomainNegativeExamples />
+    </FeatureAdditionalInfo>
+</Features>
+</Ontology>
