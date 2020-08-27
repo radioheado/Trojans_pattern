@@ -1014,6 +1014,108 @@
         </Fragments>
       </NLPattern>
     </HypothesisExample>
+<HypothesisExample version="1.0" index="251" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Create or Modify System Process technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="252" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Hijack Execution Flow technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="253" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="System Services technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="254" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Service Execution sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="255" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Windows Service sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="256" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="process1" />
+          </OntologyEntity>
+          <String> on host </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.10</OntologyString>
+          </OntologyEntity>
+          <String> uses </String>
+          <OntologyEntity>
+            <InstanceReference name="Services File Permissions Weakness sub-technique" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
 </HypothesisExamples>
 <TriggerExamples>
 <TriggerExample version="1.0" index="0" editedAfterGenerated="false">
@@ -1556,6 +1658,42 @@
       <HypothesisExampleReference version="1.0" kbPartName="Scen" index="224" />
       <SubHypotheses>
         <HypothesisExampleReference version="1.0" kbPartName="Scen" index="250" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="182" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="234" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="251" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="183" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="234" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="252" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="184" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="238" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="253" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="185" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="253" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="254" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="186" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="251" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="255" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="187" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="252" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="256" />
       </SubHypotheses>
     </ArgumentStepExample>
 </ArgumentStepExamples>

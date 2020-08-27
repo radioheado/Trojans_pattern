@@ -20,25 +20,6 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="time2">
-      <DirectSuperConcepts>
-        <ConceptReference name="time" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="time2" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
 <Instance name="time1">
       <DirectSuperConcepts>
         <ConceptReference name="time" />
@@ -50,6 +31,25 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="time1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="time2">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="time2" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -77,7 +77,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Execution tactic">
+<Instance name="Impact tactic">
       <DirectSuperConcepts>
         <ConceptReference name="tactic" />
       </DirectSuperConcepts>
@@ -87,159 +87,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Execution tactic" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Lateral Movement tactic">
-      <DirectSuperConcepts>
-        <ConceptReference name="tactic" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Lateral Movement tactic" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Privilege Escalation tactic">
-      <DirectSuperConcepts>
-        <ConceptReference name="tactic" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Privilege Escalation tactic" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Command and Control tactic">
-      <DirectSuperConcepts>
-        <ConceptReference name="tactic" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Command and Control tactic" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Persistence tactic">
-      <DirectSuperConcepts>
-        <ConceptReference name="tactic" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Persistence tactic" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Defense Evasion tactic">
-      <DirectSuperConcepts>
-        <ConceptReference name="tactic" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Defense Evasion tactic" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Discovery tactic">
-      <DirectSuperConcepts>
-        <ConceptReference name="tactic" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Discovery tactic" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Exfiltration tactic">
-      <DirectSuperConcepts>
-        <ConceptReference name="tactic" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Exfiltration tactic" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Collection tactic">
-      <DirectSuperConcepts>
-        <ConceptReference name="tactic" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Collection tactic" />
+              <InstanceReference name="Impact tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -267,7 +115,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Impact tactic">
+<Instance name="Collection tactic">
       <DirectSuperConcepts>
         <ConceptReference name="tactic" />
       </DirectSuperConcepts>
@@ -277,7 +125,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Impact tactic" />
+              <InstanceReference name="Collection tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -286,9 +134,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Unsecured Credentials technique">
+<Instance name="Exfiltration tactic">
       <DirectSuperConcepts>
-        <ConceptReference name="technique" />
+        <ConceptReference name="tactic" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -296,7 +144,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Unsecured Credentials technique" />
+              <InstanceReference name="Exfiltration tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -305,9 +153,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Proxy technique">
+<Instance name="Discovery tactic">
       <DirectSuperConcepts>
-        <ConceptReference name="technique" />
+        <ConceptReference name="tactic" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -315,7 +163,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Proxy technique" />
+              <InstanceReference name="Discovery tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -324,9 +172,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Network Service Scanning technique">
+<Instance name="Defense Evasion tactic">
       <DirectSuperConcepts>
-        <ConceptReference name="technique" />
+        <ConceptReference name="tactic" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -334,7 +182,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Network Service Scanning technique" />
+              <InstanceReference name="Defense Evasion tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -343,9 +191,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Fallback Channels technique">
+<Instance name="Persistence tactic">
       <DirectSuperConcepts>
-        <ConceptReference name="technique" />
+        <ConceptReference name="tactic" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -353,7 +201,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Fallback Channels technique" />
+              <InstanceReference name="Persistence tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -362,9 +210,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Native API technique">
+<Instance name="Command and Control tactic">
       <DirectSuperConcepts>
-        <ConceptReference name="technique" />
+        <ConceptReference name="tactic" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -372,7 +220,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Native API technique" />
+              <InstanceReference name="Command and Control tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -381,9 +229,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Credentials from Password Stores technique">
+<Instance name="Privilege Escalation tactic">
       <DirectSuperConcepts>
-        <ConceptReference name="technique" />
+        <ConceptReference name="tactic" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -391,7 +239,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Credentials from Password Stores technique" />
+              <InstanceReference name="Privilege Escalation tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -400,9 +248,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Hide Artifacts technique">
+<Instance name="Lateral Movement tactic">
       <DirectSuperConcepts>
-        <ConceptReference name="technique" />
+        <ConceptReference name="tactic" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -410,7 +258,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Hide Artifacts technique" />
+              <InstanceReference name="Lateral Movement tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -419,9 +267,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Scheduled Task or Job technique">
+<Instance name="Execution tactic">
       <DirectSuperConcepts>
-        <ConceptReference name="technique" />
+        <ConceptReference name="tactic" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -429,520 +277,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Scheduled Task or Job technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Windows Management Instrumentation technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Windows Management Instrumentation technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="System Services technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="System Services technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Remote File Copy technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Remote File Copy technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Remote Services technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Remote Services technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Abuse Elevation Control Mechanism technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Abuse Elevation Control Mechanism technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Hijack Execution Flow technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Hijack Execution Flow technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Data Obfuscation technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Data Obfuscation technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Encrypted Channel technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Encrypted Channel technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Ingress Tool Transfer technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Ingress Tool Transfer technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Application Layer Protocol technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Application Layer Protocol technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Boot or Logon Autostart Execution technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Boot or Logon Autostart Execution technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Data Encoding technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Data Encoding technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Obfuscated Files or Information technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Obfuscated Files or Information technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Signed Binary Proxy Execution technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Signed Binary Proxy Execution technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="System Information Discovery technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="System Information Discovery technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Exfiltration Over C2 Channel technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Exfiltration Over C2 Channel technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Process Discovery technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Process Discovery technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Screen Capture technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Screen Capture technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="System Owner or User Discovery technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="System Owner or User Discovery technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="System Time Discovery technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="System Time Discovery technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Command and Scripting Interpreter technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Command and Scripting Interpreter technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Create or Modify System Process technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Create or Modify System Process technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="File and Directory Discovery technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="File and Directory Discovery technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Indicator Removal on Host technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Indicator Removal on Host technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Input Capture technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Input Capture technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Masquerading technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Masquerading technique" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Data Encrypted for Impact technique">
-      <DirectSuperConcepts>
-        <ConceptReference name="technique" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Data Encrypted for Impact technique" />
+              <InstanceReference name="Execution tactic" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -970,9 +305,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Asymmetric Cryptography sub-technique">
+<Instance name="Data Encrypted for Impact technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -980,7 +315,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Asymmetric Cryptography sub-technique" />
+              <InstanceReference name="Data Encrypted for Impact technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -989,9 +324,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Credentials in Files sub-technique">
+<Instance name="Masquerading technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -999,7 +334,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Credentials in Files sub-technique" />
+              <InstanceReference name="Masquerading technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1008,9 +343,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Windows Command Shell sub-technique">
+<Instance name="Input Capture technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1018,7 +353,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Windows Command Shell sub-technique" />
+              <InstanceReference name="Input Capture technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1027,9 +362,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="File Transfer Protocols sub-technique">
+<Instance name="Indicator Removal on Host technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1037,7 +372,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="File Transfer Protocols sub-technique" />
+              <InstanceReference name="Indicator Removal on Host technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1046,9 +381,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Credentials from Web Browsers sub-technique">
+<Instance name="File and Directory Discovery technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1056,7 +391,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Credentials from Web Browsers sub-technique" />
+              <InstanceReference name="File and Directory Discovery technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1065,9 +400,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Hidden Files and Directories sub-technique">
+<Instance name="Create or Modify System Process technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1075,7 +410,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Hidden Files and Directories sub-technique" />
+              <InstanceReference name="Create or Modify System Process technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1084,9 +419,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Launch Agent sub-technique">
+<Instance name="Command and Scripting Interpreter technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1094,7 +429,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Launch Agent sub-technique" />
+              <InstanceReference name="Command and Scripting Interpreter technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1103,9 +438,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="SMB Windows Admin Shares sub-technique">
+<Instance name="System Time Discovery technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1113,7 +448,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="SMB Windows Admin Shares sub-technique" />
+              <InstanceReference name="System Time Discovery technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1122,9 +457,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Scheduled Task sub-technique">
+<Instance name="System Owner or User Discovery technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1132,7 +467,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Scheduled Task sub-technique" />
+              <InstanceReference name="System Owner or User Discovery technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1141,9 +476,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="AT Windows sub-technique">
+<Instance name="Screen Capture technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1151,7 +486,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="AT Windows sub-technique" />
+              <InstanceReference name="Screen Capture technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1160,9 +495,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Service Execution sub-technique">
+<Instance name="Process Discovery technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1170,7 +505,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Service Execution sub-technique" />
+              <InstanceReference name="Process Discovery technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1179,9 +514,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="SMB Windows Admin Shares technique">
+<Instance name="Exfiltration Over C2 Channel technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1189,7 +524,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="SMB Windows Admin Shares technique" />
+              <InstanceReference name="Exfiltration Over C2 Channel technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1198,9 +533,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Bypass User Access Control sub-technique">
+<Instance name="System Information Discovery technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1208,7 +543,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Bypass User Access Control sub-technique" />
+              <InstanceReference name="System Information Discovery technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1217,9 +552,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="DLL Search Order Hijacking sub-technique">
+<Instance name="Signed Binary Proxy Execution technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1227,7 +562,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="DLL Search Order Hijacking sub-technique" />
+              <InstanceReference name="Signed Binary Proxy Execution technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1236,9 +571,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Junk Data sub-technique">
+<Instance name="Obfuscated Files or Information technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1246,7 +581,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Junk Data sub-technique" />
+              <InstanceReference name="Obfuscated Files or Information technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1255,9 +590,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Symmetric Cryptography sub-technique">
+<Instance name="Data Encoding technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1265,7 +600,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Symmetric Cryptography sub-technique" />
+              <InstanceReference name="Data Encoding technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1274,9 +609,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Web Protocols sub-technique">
+<Instance name="Boot or Logon Autostart Execution technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1284,7 +619,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Web Protocols sub-technique" />
+              <InstanceReference name="Boot or Logon Autostart Execution technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1293,9 +628,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Mail Protocols sub-technique">
+<Instance name="Application Layer Protocol technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1303,7 +638,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Mail Protocols sub-technique" />
+              <InstanceReference name="Application Layer Protocol technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1312,9 +647,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Registry Run Keys or Startup Folder sub-technique">
+<Instance name="Ingress Tool Transfer technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1322,7 +657,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Registry Run Keys or Startup Folder sub-technique" />
+              <InstanceReference name="Ingress Tool Transfer technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1331,9 +666,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Standard Encoding sub-technique">
+<Instance name="Encrypted Channel technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1341,7 +676,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Standard Encoding sub-technique" />
+              <InstanceReference name="Encrypted Channel technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1350,9 +685,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Binary Padding sub-technique">
+<Instance name="Data Obfuscation technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1360,7 +695,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Binary Padding sub-technique" />
+              <InstanceReference name="Data Obfuscation technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1369,9 +704,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Rundll32 sub-technique">
+<Instance name="Hijack Execution Flow technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1379,7 +714,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Rundll32 sub-technique" />
+              <InstanceReference name="Hijack Execution Flow technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1388,9 +723,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Winlogon Helper DLL sub-technique">
+<Instance name="Abuse Elevation Control Mechanism technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1398,7 +733,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Winlogon Helper DLL sub-technique" />
+              <InstanceReference name="Abuse Elevation Control Mechanism technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1407,9 +742,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Unix Shell sub-technique">
+<Instance name="Remote Services technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1417,7 +752,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Unix Shell sub-technique" />
+              <InstanceReference name="Remote Services technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1426,9 +761,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Systemd Service sub-technique">
+<Instance name="Remote File Copy technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1436,7 +771,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Systemd Service sub-technique" />
+              <InstanceReference name="Remote File Copy technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1445,9 +780,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="File Deletion sub-technique">
+<Instance name="System Services technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1455,7 +790,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="File Deletion sub-technique" />
+              <InstanceReference name="System Services technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1464,9 +799,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Keylogging sub-technique">
+<Instance name="Windows Management Instrumentation technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1474,7 +809,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Keylogging sub-technique" />
+              <InstanceReference name="Windows Management Instrumentation technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1483,9 +818,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Match Legitimate Name or Location sub-technique">
+<Instance name="Scheduled Task or Job technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1493,7 +828,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Match Legitimate Name or Location sub-technique" />
+              <InstanceReference name="Scheduled Task or Job technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1502,9 +837,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Masquerade Task or Service sub-technique">
+<Instance name="Hide Artifacts technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1512,7 +847,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Masquerade Task or Service sub-technique" />
+              <InstanceReference name="Hide Artifacts technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1521,9 +856,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Clear Windows Event Logs sub-technique">
+<Instance name="Credentials from Password Stores technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1531,7 +866,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Clear Windows Event Logs sub-technique" />
+              <InstanceReference name="Credentials from Password Stores technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1540,9 +875,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Malicious Link sub-technique">
+<Instance name="Native API technique">
       <DirectSuperConcepts>
-        <ConceptReference name="sub-technique" />
+        <ConceptReference name="technique" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -1550,7 +885,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Malicious Link sub-technique" />
+              <InstanceReference name="Native API technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1559,7 +894,83 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="PowerShell sub-technique">
+<Instance name="Fallback Channels technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Fallback Channels technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Network Service Scanning technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Network Service Scanning technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Proxy technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Proxy technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Unsecured Credentials technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Unsecured Credentials technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Services File Permissions Weakness sub-technique">
       <DirectSuperConcepts>
         <ConceptReference name="sub-technique" />
       </DirectSuperConcepts>
@@ -1569,7 +980,26 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="PowerShell sub-technique" />
+              <InstanceReference name="Services File Permissions Weakness sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Windows Service sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Windows Service sub-technique" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1597,7 +1027,615 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Silence">
+<Instance name="PowerShell sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="PowerShell sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Malicious Link sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Malicious Link sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Clear Windows Event Logs sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Clear Windows Event Logs sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Masquerade Task or Service sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Masquerade Task or Service sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Match Legitimate Name or Location sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Match Legitimate Name or Location sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Keylogging sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Keylogging sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="File Deletion sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="File Deletion sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Systemd Service sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Systemd Service sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Unix Shell sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Unix Shell sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Winlogon Helper DLL sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Winlogon Helper DLL sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Rundll32 sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Rundll32 sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Binary Padding sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Binary Padding sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Standard Encoding sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Standard Encoding sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Registry Run Keys or Startup Folder sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Registry Run Keys or Startup Folder sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Mail Protocols sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Mail Protocols sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Web Protocols sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Web Protocols sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Symmetric Cryptography sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Symmetric Cryptography sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Junk Data sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Junk Data sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="DLL Search Order Hijacking sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="DLL Search Order Hijacking sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Bypass User Access Control sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Bypass User Access Control sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="SMB Windows Admin Shares technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="SMB Windows Admin Shares technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Service Execution sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Service Execution sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="AT Windows sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="AT Windows sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Scheduled Task sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Scheduled Task sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="SMB Windows Admin Shares sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="SMB Windows Admin Shares sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Launch Agent sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Launch Agent sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Hidden Files and Directories sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Hidden Files and Directories sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Credentials from Web Browsers sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Credentials from Web Browsers sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="File Transfer Protocols sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="File Transfer Protocols sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Windows Command Shell sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Windows Command Shell sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Credentials in Files sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Credentials in Files sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Asymmetric Cryptography sub-technique">
+      <DirectSuperConcepts>
+        <ConceptReference name="sub-technique" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Asymmetric Cryptography sub-technique" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="APT28">
       <DirectSuperConcepts>
         <ConceptReference name="APT group" />
       </DirectSuperConcepts>
@@ -1607,7 +1645,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Silence" />
+              <InstanceReference name="APT28" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1635,7 +1673,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="APT28">
+<Instance name="Silence">
       <DirectSuperConcepts>
         <ConceptReference name="APT group" />
       </DirectSuperConcepts>
@@ -1645,7 +1683,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="APT28" />
+              <InstanceReference name="Silence" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1692,7 +1730,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="xCmd">
+<Instance name="RemoteExec">
       <DirectSuperConcepts>
         <ConceptReference name="suspicious program" />
       </DirectSuperConcepts>
@@ -1702,7 +1740,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="xCmd" />
+              <InstanceReference name="RemoteExec" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1730,7 +1768,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="RemoteExec">
+<Instance name="xCmd">
       <DirectSuperConcepts>
         <ConceptReference name="suspicious program" />
       </DirectSuperConcepts>
@@ -1740,7 +1778,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="RemoteExec" />
+              <InstanceReference name="xCmd" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1749,7 +1787,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="XTunnel">
+<Instance name="Fysbis">
       <DirectSuperConcepts>
         <ConceptReference name="malware" />
       </DirectSuperConcepts>
@@ -1759,121 +1797,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="XTunnel" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="XAgentOSX">
-      <DirectSuperConcepts>
-        <ConceptReference name="malware" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="XAgentOSX" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="OLDBAIT">
-      <DirectSuperConcepts>
-        <ConceptReference name="malware" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="OLDBAIT" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Komplex">
-      <DirectSuperConcepts>
-        <ConceptReference name="malware" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Komplex" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="RemoteCMD">
-      <DirectSuperConcepts>
-        <ConceptReference name="malware" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="RemoteCMD" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Downdelph">
-      <DirectSuperConcepts>
-        <ConceptReference name="malware" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Downdelph" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="CORESHELL">
-      <DirectSuperConcepts>
-        <ConceptReference name="malware" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="CORESHELL" />
+              <InstanceReference name="Fysbis" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1901,7 +1825,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Fysbis">
+<Instance name="CORESHELL">
       <DirectSuperConcepts>
         <ConceptReference name="malware" />
       </DirectSuperConcepts>
@@ -1911,7 +1835,121 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Fysbis" />
+              <InstanceReference name="CORESHELL" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="RemoteCMD">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="RemoteCMD" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Komplex">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Komplex" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="OLDBAIT">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="OLDBAIT" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="XAgentOSX">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="XAgentOSX" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="XTunnel">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="XTunnel" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1996,25 +2034,6 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="source1">
-      <DirectSuperConcepts>
-        <ConceptReference name="IPv4 address" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="source1" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
 <Instance name="host">
       <DirectSuperConcepts>
         <ConceptReference name="IPv4 address" />
@@ -2026,6 +2045,25 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="host" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="source1">
+      <DirectSuperConcepts>
+        <ConceptReference name="IPv4 address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="source1" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -2072,25 +2110,6 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="scheduled task pattern by at">
-      <DirectSuperConcepts>
-        <ConceptReference name="computer file system absolute path" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="scheduled task pattern by at" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
 <Instance name="windows admin shares path1">
       <DirectSuperConcepts>
         <ConceptReference name="computer file system absolute path" />
@@ -2102,6 +2121,25 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="windows admin shares path1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="scheduled task pattern by at">
+      <DirectSuperConcepts>
+        <ConceptReference name="computer file system absolute path" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="scheduled task pattern by at" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -2129,7 +2167,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="PsExec utility">
+<Instance name="sysprep utility">
       <DirectSuperConcepts>
         <ConceptReference name="system utility" />
       </DirectSuperConcepts>
@@ -2139,45 +2177,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="PsExec utility" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Windows Service Control Manager">
-      <DirectSuperConcepts>
-        <ConceptReference name="system utility" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Windows Service Control Manager" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="sc utility">
-      <DirectSuperConcepts>
-        <ConceptReference name="system utility" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="sc utility" />
+              <InstanceReference name="sysprep utility" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -2205,7 +2205,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="sysprep utility">
+<Instance name="sc utility">
       <DirectSuperConcepts>
         <ConceptReference name="system utility" />
       </DirectSuperConcepts>
@@ -2215,7 +2215,45 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="sysprep utility" />
+              <InstanceReference name="sc utility" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Windows Service Control Manager">
+      <DirectSuperConcepts>
+        <ConceptReference name="system utility" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Windows Service Control Manager" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="PsExec utility">
+      <DirectSuperConcepts>
+        <ConceptReference name="system utility" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="PsExec utility" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -2230,9 +2268,63 @@
       <FeatureReference name="has as tactic" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="OLDBAIT" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Command and Control tactic" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as tactic" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="OLDBAIT" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Credential Access tactic" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as tactic" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="OLDBAIT" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Defense Evasion tactic" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as tactic" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="XAgentOSX" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Collection tactic" />
+        <InstanceReference name="Discovery tactic" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as tactic" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="XAgentOSX" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Command and Control tactic" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as tactic" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="XAgentOSX" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Credential Access tactic" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as tactic" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="XAgentOSX" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Defense Evasion tactic" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2250,61 +2342,7 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="XAgentOSX" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Defense Evasion tactic" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as tactic" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="XAgentOSX" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Credential Access tactic" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as tactic" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="XAgentOSX" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Command and Control tactic" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as tactic" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="XAgentOSX" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Discovery tactic" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as tactic" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="OLDBAIT" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Defense Evasion tactic" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as tactic" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="OLDBAIT" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Credential Access tactic" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as tactic" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="OLDBAIT" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Command and Control tactic" />
+        <InstanceReference name="Collection tactic" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2313,16 +2351,7 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="APT28" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Komplex" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as malware" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="APT28" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Downdelph" />
+        <InstanceReference name="Cannon" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2340,16 +2369,25 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="APT28" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Cannon" />
+        <InstanceReference name="Downdelph" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="APT28" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Komplex" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as tool" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="APT1" />
+        <InstanceReference name="APT3" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="xCmd" />
+        <InstanceReference name="RemoteCMD" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2365,9 +2403,9 @@
       <FeatureReference name="has as tool" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="APT3" />
+        <InstanceReference name="APT1" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="RemoteCMD" />
+        <InstanceReference name="xCmd" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2383,9 +2421,207 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="XTunnel" />
+        <InstanceReference name="PowerShell sub-technique" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>XAPS</OntologyString>
+        <OntologyString>powershell.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="sysprep utility" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>sysprep.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="SMB Windows Admin Shares technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>SMB/Windows Admin Shares technique</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="host" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>10.10.1.10</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="source1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>64.10.7.1</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="time1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>03/26/2020 08:35:43</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="windows admin shares path1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>c:\windows\1111.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="time2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>3/27/2020 05:07:25</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="net utility" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>net.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="sc utility" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>sc.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Windows Service Control Manager" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>services.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="PsExec utility" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>PsExec</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="RemoteExec" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>RemoteExec</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="RemoteCMD" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>RemoteCMD</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Winexe" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Winexe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Silence" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Oleg Skulkin</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Silence" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Group-IB</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="xCmd" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>xCmd</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="AT Windows sub-technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>at.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Scheduled Task sub-technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>schtasks.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="SMB Windows Admin Shares sub-technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>SMB/Windows Admin Shares sub-technique</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Service Execution sub-technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Service Execution</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Windows Management Instrumentation technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>WMI</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2394,7 +2630,7 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="XTunnel" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>Trojan.Shunnael</OntologyString>
+        <OntologyString>X-Tunnel</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2412,214 +2648,52 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="XTunnel" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>X-Tunnel</OntologyString>
+        <OntologyString>Trojan.Shunnael</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Windows Management Instrumentation technique" />
+        <InstanceReference name="XTunnel" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>WMI</OntologyString>
+        <OntologyString>XAPS</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as external name" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Service Execution sub-technique" />
+        <InstanceReference name="User Execution technique" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>Service Execution</OntologyString>
+        <InstanceReference name="Malicious Link sub-technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as external name" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="SMB Windows Admin Shares sub-technique" />
+        <InstanceReference name="Execution tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>SMB/Windows Admin Shares sub-technique</OntologyString>
+        <InstanceReference name="User Execution technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as external name" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Scheduled Task sub-technique" />
+        <InstanceReference name="Impact tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>schtasks.exe</OntologyString>
+        <InstanceReference name="Data Encrypted for Impact technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as external name" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="AT Windows sub-technique" />
+        <InstanceReference name="Defense Evasion tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>at.exe</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="xCmd" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>xCmd</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Silence" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>Group-IB</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Silence" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>Oleg Skulkin</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Winexe" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>Winexe</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="RemoteCMD" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>RemoteCMD</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="RemoteExec" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>RemoteExec</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="PsExec utility" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>PsExec</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Windows Service Control Manager" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>services.exe</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="sc utility" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>sc.exe</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="net utility" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>net.exe</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="time2" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>3/27/2020 05:07:25</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="windows admin shares path1" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>c:\windows\1111.exe</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="time1" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>03/26/2020 08:35:43</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="source1" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>64.10.7.1</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="host" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>10.10.1.10</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="SMB Windows Admin Shares technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>SMB/Windows Admin Shares technique</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="sysprep utility" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>sysprep.exe</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="PowerShell sub-technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>powershell.exe</OntologyString>
+        <InstanceReference name="Masquerading technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2628,43 +2702,7 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Credential Access tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Unsecured Credentials technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Command and Control tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Proxy technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Discovery tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Network Service Scanning technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Command and Control tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Fallback Channels technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Execution tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Native API technique" />
+        <InstanceReference name="Input Capture technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2673,97 +2711,16 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Defense Evasion tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Hide Artifacts technique" />
+        <InstanceReference name="Indicator Removal on Host technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Execution tactic" />
+        <InstanceReference name="Discovery tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Windows Management Instrumentation technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Execution tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Scheduled Task or Job technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Execution tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="System Services technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Lateral Movement tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Remote Services technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Privilege Escalation tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Abuse Elevation Control Mechanism technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Privilege Escalation tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Hijack Execution Flow technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Command and Control tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Data Obfuscation technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Command and Control tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Encrypted Channel technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Command and Control tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Ingress Tool Transfer technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Command and Control tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Application Layer Protocol technique" />
+        <InstanceReference name="File and Directory Discovery technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2772,34 +2729,16 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Persistence tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Boot or Logon Autostart Execution technique" />
+        <InstanceReference name="Create or Modify System Process technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Command and Control tactic" />
+        <InstanceReference name="Execution tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Data Encoding technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Defense Evasion tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Obfuscated Files or Information technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Defense Evasion tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Signed Binary Proxy Execution technique" />
+        <InstanceReference name="Command and Scripting Interpreter technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2808,16 +2747,7 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Discovery tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="System Information Discovery technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Exfiltration tactic" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Exfiltration Over C2 Channel technique" />
+        <InstanceReference name="System Time Discovery technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2826,7 +2756,7 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Discovery tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Process Discovery technique" />
+        <InstanceReference name="System Owner or User Discovery technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2844,7 +2774,16 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Discovery tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="System Owner or User Discovery technique" />
+        <InstanceReference name="Process Discovery technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Exfiltration tactic" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Exfiltration Over C2 Channel technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2853,16 +2792,34 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Discovery tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="System Time Discovery technique" />
+        <InstanceReference name="System Information Discovery technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Execution tactic" />
+        <InstanceReference name="Defense Evasion tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Command and Scripting Interpreter technique" />
+        <InstanceReference name="Signed Binary Proxy Execution technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Defense Evasion tactic" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Obfuscated Files or Information technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Command and Control tactic" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Data Encoding technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2871,52 +2828,70 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Persistence tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Create or Modify System Process technique" />
+        <InstanceReference name="Boot or Logon Autostart Execution technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Discovery tactic" />
+        <InstanceReference name="Command and Control tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="File and Directory Discovery technique" />
+        <InstanceReference name="Application Layer Protocol technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Defense Evasion tactic" />
+        <InstanceReference name="Command and Control tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Indicator Removal on Host technique" />
+        <InstanceReference name="Ingress Tool Transfer technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Credential Access tactic" />
+        <InstanceReference name="Command and Control tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Input Capture technique" />
+        <InstanceReference name="Encrypted Channel technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Defense Evasion tactic" />
+        <InstanceReference name="Command and Control tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Masquerading technique" />
+        <InstanceReference name="Data Obfuscation technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Impact tactic" />
+        <InstanceReference name="Privilege Escalation tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Data Encrypted for Impact technique" />
+        <InstanceReference name="Hijack Execution Flow technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Privilege Escalation tactic" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Abuse Elevation Control Mechanism technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Lateral Movement tactic" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Remote Services technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2925,115 +2900,79 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Execution tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="User Execution technique" />
+        <InstanceReference name="System Services technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="User Execution technique" />
+        <InstanceReference name="Execution tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Malicious Link sub-technique" />
+        <InstanceReference name="Scheduled Task or Job technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as sub-technique" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Encrypted Channel technique" />
+        <InstanceReference name="Execution tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Asymmetric Cryptography sub-technique" />
+        <InstanceReference name="Windows Management Instrumentation technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as sub-technique" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Unsecured Credentials technique" />
+        <InstanceReference name="Defense Evasion tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Credentials in Files sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Command and Scripting Interpreter technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Windows Command Shell sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Application Layer Protocol technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="File Transfer Protocols sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Hide Artifacts technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Hidden Files and Directories sub-technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as sub-technique" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Create or Modify System Process technique" />
+        <InstanceReference name="Execution tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Launch Agent sub-technique" />
+        <InstanceReference name="Native API technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as sub-technique" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Remote Services technique" />
+        <InstanceReference name="Command and Control tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="SMB Windows Admin Shares sub-technique" />
+        <InstanceReference name="Fallback Channels technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as sub-technique" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Scheduled Task or Job technique" />
+        <InstanceReference name="Discovery tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Scheduled Task sub-technique" />
+        <InstanceReference name="Network Service Scanning technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as sub-technique" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Scheduled Task or Job technique" />
+        <InstanceReference name="Command and Control tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="AT Windows sub-technique" />
+        <InstanceReference name="Proxy technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as sub-technique" />
+      <FeatureReference name="has as technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="System Services technique" />
+        <InstanceReference name="Credential Access tactic" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Service Execution sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Abuse Elevation Control Mechanism technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Bypass User Access Control sub-technique" />
+        <InstanceReference name="Unsecured Credentials technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -3042,97 +2981,7 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Hijack Execution Flow technique" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="DLL Search Order Hijacking sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Data Obfuscation technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Junk Data sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Encrypted Channel technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Symmetric Cryptography sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Application Layer Protocol technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Web Protocols sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Application Layer Protocol technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Mail Protocols sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Boot or Logon Autostart Execution technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Registry Run Keys or Startup Folder sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Data Encoding technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Standard Encoding sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Obfuscated Files or Information technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Binary Padding sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Signed Binary Proxy Execution technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Rundll32 sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Boot or Logon Autostart Execution technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Winlogon Helper DLL sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Command and Scripting Interpreter technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Unix Shell sub-technique" />
+        <InstanceReference name="Services File Permissions Weakness sub-technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -3141,52 +2990,16 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Create or Modify System Process technique" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Systemd Service sub-technique" />
+        <InstanceReference name="Windows Service sub-technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as sub-technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Indicator Removal on Host technique" />
+        <InstanceReference name="Hide Artifacts technique" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="File Deletion sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Input Capture technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Keylogging sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Masquerading technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Match Legitimate Name or Location sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Masquerading technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Masquerade Task or Service sub-technique" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as sub-technique" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Indicator Removal on Host technique" />
-        <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Clear Windows Event Logs sub-technique" />
+        <InstanceReference name="NTFS File Attibutes sub-technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -3202,9 +3015,252 @@
       <FeatureReference name="has as sub-technique" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Indicator Removal on Host technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Clear Windows Event Logs sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Masquerading technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Masquerade Task or Service sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Masquerading technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Match Legitimate Name or Location sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Input Capture technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Keylogging sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Indicator Removal on Host technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="File Deletion sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Create or Modify System Process technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Systemd Service sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Command and Scripting Interpreter technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Unix Shell sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Boot or Logon Autostart Execution technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Winlogon Helper DLL sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Signed Binary Proxy Execution technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Rundll32 sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Obfuscated Files or Information technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Binary Padding sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Data Encoding technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Standard Encoding sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Boot or Logon Autostart Execution technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Registry Run Keys or Startup Folder sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Application Layer Protocol technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Mail Protocols sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Application Layer Protocol technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Web Protocols sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Encrypted Channel technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Symmetric Cryptography sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Data Obfuscation technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Junk Data sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Hijack Execution Flow technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="DLL Search Order Hijacking sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Abuse Elevation Control Mechanism technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Bypass User Access Control sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="System Services technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Service Execution sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Scheduled Task or Job technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="AT Windows sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Scheduled Task or Job technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Scheduled Task sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Remote Services technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="SMB Windows Admin Shares sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Create or Modify System Process technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Launch Agent sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Hide Artifacts technique" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="NTFS File Attibutes sub-technique" />
+        <InstanceReference name="Hidden Files and Directories sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Application Layer Protocol technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="File Transfer Protocols sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Command and Scripting Interpreter technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Windows Command Shell sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Unsecured Credentials technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Credentials in Files sub-technique" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as sub-technique" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Encrypted Channel technique" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Asymmetric Cryptography sub-technique" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 </Facts>

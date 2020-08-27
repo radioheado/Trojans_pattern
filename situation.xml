@@ -3669,9 +3669,9 @@
           <FormalParameterReference name="?S6" />
           <FormalParameterReference name="?O3" />
           <FormalParameterReference name="?O7" />
-          <FormalParameterReference name="?O8" />
           <FormalParameterReference name="?O5" />
           <FormalParameterReference name="?O4" />
+          <FormalParameterReference name="?O8" />
           <FormalParameterReference name="?O6" />
         </SharedParameters>
         <Explanations>
@@ -4681,8 +4681,8 @@
           <FormalParameterReference name="?O2" />
           <FormalParameterReference name="?O3" />
           <FormalParameterReference name="?S8" />
-          <FormalParameterReference name="?O4" />
           <FormalParameterReference name="?O5" />
+          <FormalParameterReference name="?O4" />
         </SharedParameters>
         <Explanations>
           <Positive>
@@ -4925,10 +4925,10 @@
                 <InstanceReference name="Auriga" />
                 <FormalParameterReference name="?S8" />
                 <OntologyString>netui.dll</OntologyString>
-                <FormalParameterReference name="?O4" />
-                <InstanceReference name="Auriga Windows service1" />
                 <FormalParameterReference name="?O5" />
                 <InstanceReference name="Auriga DLL1" />
+                <FormalParameterReference name="?O4" />
+                <InstanceReference name="Auriga Windows service1" />
               </ConstantInstantiatedFormalParameters>
             </ConditionGeneralizedExample>
           </ConditionGeneralizedExamplesList>
@@ -7410,8 +7410,8 @@
           <FormalParameterReference name="?S2" />
           <FormalParameterReference name="?O1" />
           <FormalParameterReference name="?S3" />
-          <FormalParameterReference name="?O3" />
           <FormalParameterReference name="?O2" />
+          <FormalParameterReference name="?O3" />
         </SharedParameters>
         <Explanations>
           <Positive>
@@ -7568,10 +7568,10 @@
                 <InstanceReference name="Auriga" />
                 <FormalParameterReference name="?S3" />
                 <OntologyString>superhard corp.</OntologyString>
-                <FormalParameterReference name="?O3" />
-                <InstanceReference name="Auriga DLL1" />
                 <FormalParameterReference name="?O2" />
                 <InstanceReference name="Auriga Windows service1" />
+                <FormalParameterReference name="?O3" />
+                <InstanceReference name="Auriga DLL1" />
               </ConstantInstantiatedFormalParameters>
             </ConditionGeneralizedExample>
           </ConditionGeneralizedExamplesList>
